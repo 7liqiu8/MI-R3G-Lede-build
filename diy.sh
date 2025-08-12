@@ -41,6 +41,9 @@ git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon package/luci-t
 git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 git clone --depth 1 https://github.com/chenmozhijin/luci-app-adguardhome package/luci-app-adguardhome
 git clone --depth 1 https://github.com/tty228/luci-app-wechatpush package/luci-app-wechatpush
+git clone --depth 1 https://github.com/gdy666/lucky.git package/lucky
+git clone --depth 1 https://github.com/gdy666/luci-app-lucky.git package/luci-app-lucky
+git clone --depth 1 https://github.com/gdy666/luci-i18n-lucky-zh-cn.git package/luci-i18n-lucky-zh-cn
 git clone --depth 1 https://github.com/OldCoding/luci-app-filebrowser package/luci-app-filebrowser
 svn_export "master" "applications/luci-app-smartdns" "feeds/luci/applications/luci-app-smartdns" "https://github.com/immortalwrt/luci"
 svn_export "master" "net/smartdns" "feeds/packages/net/smartdns" "https://github.com/immortalwrt/packages"
