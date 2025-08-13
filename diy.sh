@@ -1,4 +1,10 @@
 #!/bin/bash
+
+# 在diy.sh开头添加
+sed -i '/CONFIG_PACKAGE_luci-app-turboacc/d' .config
+sed -i '/CONFIG_PACKAGE_luci-app-sqm/d' .config
+sed -i '/CONFIG_PACKAGE_kmod-sched-red/d' .config
+
 svn_export() {
 	# 参数1是分支名, 参数2是子目录, 参数3是目标目录, 参数4仓库地址
 	TMP_DIR="$(mktemp -d)" || exit 1
