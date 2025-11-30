@@ -38,6 +38,7 @@ find ./ | grep Makefile | grep v2ray-geodata | xargs rm -f
 git clone --depth 1 https://github.com/sbwml/packages_lang_golang feeds/packages/lang/golang
 # 下载插件
 git clone --depth 1 https://github.com/fw876/helloworld package/helloworld
+git clone --depth 1 https://github.com/vernesong/OpenClash.git package/OpenClash 
 git clone --depth 1 https://github.com/sbwml/luci-app-openlist2 package/luci-app-openlist2
 # git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall-packages package/openwrt-passwall-packages
 git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
