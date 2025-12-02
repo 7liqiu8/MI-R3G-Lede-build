@@ -126,7 +126,7 @@ jobs:
         
         # IPv6支持
         cat >> .config <<EOF
-        CONFIG_PACKAGE_dnsmasq_full=y  # 已包含dhcpv6，无需单独声明
+        CONFIG_PACKAGE_dnsmasq_full=y
         CONFIG_PACKAGE_ip6tables=y
         CONFIG_PACKAGE_ip6tables-extra=y
         CONFIG_PACKAGE_ip6tables-mod-nat=y
